@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
-  constructor() {}
+  text = 'click the button';
+  changeText = function() {
+    this.text = 'You have clicked the button!';
+  }
 
 }
