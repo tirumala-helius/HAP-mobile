@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
   text = 'click the button';
-  changeText = function() {
+  
+  onchangetext() {
     this.text = 'You have clicked the button!';
   }
 
